@@ -1,0 +1,31 @@
+{
+  "name": "techprism",
+  "version": "1.0.0",
+  "description": "MEAN Stack Ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.ts",
+    "deploy": "git add . && git commit -m Heroku && git push heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkmithu/techprism.git"
+  },
+  "author": "nkmithu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkmithu/techprism/issues"
+  },
+  "homepage": "https://github.com/nkmithu/techprism#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
